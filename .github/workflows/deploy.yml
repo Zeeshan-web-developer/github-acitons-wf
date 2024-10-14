@@ -9,7 +9,7 @@
      steps:
        - name: echo a string
          run: "hello world"
-         -name: Multiline command
+       - name: Multiline command
          run: |
            node -v
            npm -v
