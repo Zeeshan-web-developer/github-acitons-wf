@@ -13,7 +13,11 @@
          run: |
            node -v
            npm -v
-   
+   paralle-job-macos:
+     runs-on: macos-latest
+     steps:
+       - name: view software version
+         run: sw_vers
       
       
   
