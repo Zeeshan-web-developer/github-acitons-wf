@@ -13,7 +13,7 @@
          run: |
            node -v
            npm -v
-      parallel-job-macos:
+    parallel-job-macos:
        runs-on: macos-latest
        steps:
         - name: View Sw version
