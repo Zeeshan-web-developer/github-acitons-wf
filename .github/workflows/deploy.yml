@@ -8,7 +8,7 @@
      runs-on: ubuntu-latest
      steps:
        - name: echo a string
-         run: "hello world"
+         run: echo "hello world"
        - name: Multiline command
          run: |
            node -v
